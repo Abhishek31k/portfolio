@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhishek Kumar Yadav</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/images/letter-a.png" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+
+
+  <main>
+   <aside class="sidebar" data-sidebar>
+  <div class="sidebar-info">
+    <figure class="avatar-box">
+      <img src="images/Aky.png" alt="Abhishek Kumar Yadav" width="80">
+    </figure>
+    <div class="info-content">
+      <h1 class="name" title="Abhishek Kumar Yadav">Abhishek Kumar Yadav</h1>
+      <p class="title" style="font-weight:bold;">Full-Stack Web Developer</p>
+      <p class="tagline">
+        Specialized in Role-Based Systems & Responsive UI
+      </p>
+    </div>
+
+    <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+    </button>
+  </div>
+
+  <div class="sidebar-info_more">
+    <!-- Separator -->
+    <div class="separator"></div>
+
+    <!-- Contact Section -->
+    <div class="contact-content">
+      <p class="contact-item">
+        <i class="bi bi-envelope-fill"></i>
+        <a href="mailto:abhishekkumar.elu@gmail.com" class="contact-link">
+          abhishekkumar.elu@gmail.com
+        </a>
+      </p>
+
+      <p class="contact-item">
+        <i class="bi bi-telephone-fill"></i>
+        <a href="tel:+917416773244" class="contact-link">
+          +91 7416773244
+        </a>
+      </p>
+
+      <p class="contact-item">
+        <i class="bi bi-geo-alt-fill"></i>
+        <span>Eluru, Andhra Pradesh, India</span>
+      </p>
+    </div>
+
+    <!-- Separator -->
+    <div class="separator"></div>
+
+    <!-- Social Links -->
+    <ul class="social-list">
+      <li class="social-item">
+        <a href="https://github.com/Abhishek31k" class="social-link" target="_blank" title="GitHub">
+          <i class="bi bi-github"></i>
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://www.instagram.com/abhishek_031k" class="social-link" target="_blank" title="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </li>
+      <li class="social-item">
+        <a href="https://www.linkedin.com/in/abhishek-kumar-yadav-56bb73303" class="social-link" target="_blank"
+          title="LinkedIn">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</aside>
+
+    <!--- #main-content-->
+
+    <div class="main-content">
+
+      <!--- #NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- - #ABOU-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I am a passionate and detail-oriented Full-Stack Web Developer with hands-on experience in building secure,
+            scalable, and user-friendly applications. Skilled in frontend technologies like HTML, CSS, JavaScript,
+            Bootstrap, and React, as well as backend development using PHP, Java, and Python, I specialize in creating
+            responsive interfaces, role-based systems, and authentication workflows. With expertise in SQL and Firebase,
+            I have successfully developed academic, agricultural, and e-commerce platforms that streamline processes and
+            enhance usability.
+          </p>
+
+          <p>
+            Beyond technical skills, I bring strong problem-solving abilities, independent decision-making, and
+            effective communication, with experience in stakeholder management and detailed documentation. I thrive in
+            collaborative environments while maintaining the ability to work independently, ensuring timely delivery of
+            projects.
+            <strong>Full-Stack Developer</strong>.
+          </p>
+        </section>
+
+        <!-- Recent Projects Section -->
+<section class="projects">
+  <h3 class="h3 section-title">Recent Projects</h3>
+
+  <div class="projects-grid">
+    
+    <!-- SRMS Project -->
+    <div class="project-card">
+      <a href="https://github.com/yourusername/srms" target="_blank" class="project-link">
+        <div class="project-image">
+          <img src="/images/SRMS.png" alt="SRMS Project Thumbnail">
+        </div>
+        <div class="project-content">
+          <h4 class="project-title">SRMS (Student Result Management System)</h4>
+          <p class="project-description">
+            Role-based web app with student, staff, and admin dashboards. Features secure login,
+            result publishing, performance tracking with charts, and report exports.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- FRMS Project -->
+    <div class="project-card">
+      <a href="https://github.com/yourusername/frms" target="_blank" class="project-link">
+        <div class="project-image">
+          <img src="/images/FRMS.png" alt="FRMS Project Thumbnail">
+        </div>
+        <div class="project-content">
+          <h4 class="project-title">FRMS (Farmer Resource Management System)</h4>
+          <p class="project-description">
+            Platform to manage farmers, productions, and resources with role-based access.
+            Includes an admin panel, user dashboard, and responsive UI.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <!-- Vardhan Seeds Project -->
+    <div class="project-card">
+      <a href="https://github.com/yourusername/vardhan-seeds" target="_blank" class="project-link">
+        <div class="project-image">
+          <img src="/images/vardhan-seeds.png" alt="Vardhan Seeds Project Thumbnail">
+        </div>
+        <div class="project-content">
+          <h4 class="project-title">Vardhan Seeds: A Scalable E-commerce Solution</h4>
+          <p class="project-description">
+            E-commerce platform for seed products with secure authentication. 
+            Integrated Firebase for real-time database and storage. 
+            Includes role-based admin panel for managing content.
+          </p>
+        </div>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Collaborations</h3>
+
+          <div class="clients-slider">
+            <div class="clients-track">
+              <!-- Client Logos -->
+              <div class="clients-item">
+                <a href="https://srijaagrigenetics.netlify.app/" target="_blank">
+                  <img src="images/vardhan-removebg-preview.png" alt="Vardhan Seeds Logo">
+                </a>
+              </div>
+              <div class="clients-item">
+                <a href="https://srijaagrigenetics.netlify.app/" target="_blank">
+                  <img src="images/srija.png" alt="Srija Agri Genetics Logo">
+                </a>
+              </div>
+              <!-- Duplicate items for infinite loop effect -->
+              <div class="clients-item">
+                <a href="https://crr.netlify.app/" target="_blank">
+                  <img src="images/crrengglogo.png" alt="Vardhan Seeds Logo">
+                </a>
+              </div>
+             
+            </div>
+          </div>
+        </section>
+
+
+
+
+      </article>
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+           
+    <!-- Resume Download Button -->
+    <a href="AbhishekKumar -Software Developement Engineer.pdf" 
+       class="btn btn-primary mt-3" 
+       target="_blank" 
+       download>
+      <i class="bi bi-file-earmark-pdf-fill"></i> Download Resume
+    </a>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Sir C.R Reddy College Of Engineering</h4>
+              <!--<span>2007 — 2008</span> -->
+              <p class="timeline-text">
+                I am pursuing my BTech in Computer Science at Sir C.R. Reddy College of Engineering, continuously
+                expanding my knowledge in technology and innovation.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">sri chaitanya junior college</h4>
+              <!-- <span>2007 — 2008</span> -->
+              <p class="timeline-text">
+                I completed my Intermediate education in the MPC stream (Mathematics, Physics, and Chemistry) at Sri
+                Chaitanya Junior College, building a strong foundation in analytical and problem-solving skills.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">J M J English Medium School</h4>
+              <!-- <span>2007 — 2008</span> -->
+              <p class="timeline-text">
+                I completed my schooling at J M J English Medium School, where I developed a strong academic foundation
+                and communication skills.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Creative Direction & Design</h4>
+              <!--  <span>2010 — 2013</span>-->
+              <p class="timeline-text">
+                I am proficient in Microsoft Office, utilizing its tools for document creation, data management,
+                presentations, and efficient workflow organization.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+              <!--  <span>2010 — 2013</span>-->
+              <p class="timeline-text">
+                I work as a web designer, creating visually appealing and user-friendly websites with a focus on modern
+                design and functionality.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <!-- Frontend Skills -->
+          <div class="skill-group">
+            <h5 class="skill-group-title">Frontend</h5>
+            <div class="skills-icons-row">
+              <div class="skill-icon-circle" title="HTML"><i class="bi bi-filetype-html"></i></div>
+              <div class="skill-icon-circle" title="CSS"><i class="bi bi-filetype-css"></i></div>
+              <div class="skill-icon-circle" title="JavaScript"><i class="bi bi-filetype-js"></i></div>
+              <div class="skill-icon-circle" title="Bootstrap"><i class="bi bi-bootstrap"></i></div>
+              <div class="skill-icon-circle" title="SCSS"><i class="bi bi-file-earmark-text"></i></div>
+            </div>
+          </div>
+
+          <!-- Backend Skills -->
+          <div class="skill-group">
+            <h5 class="skill-group-title">Backend & Database</h5>
+            <div class="skills-icons-row">
+              <div class="skill-icon-circle" title="PHP"><i class="bi bi-filetype-php"></i></div>
+              <div class="skill-icon-circle" title="Java"><i class="bi bi-file-earmark-text"></i></div>
+              <div class="skill-icon-circle" title="SQL"><i class="bi bi-database"></i></div>
+            </div>
+          </div>
+
+          <!-- Other Skills -->
+          <div class="skill-group">
+            <h5 class="skill-group-title">Other</h5>
+            <div class="skills-icons-row">
+              <div class="skill-icon-circle" title="React"><i class="bi bi-filetype-js"></i></div>
+              <div class="skill-icon-circle" title="Product Design"><i class="bi bi-pencil-square"></i></div>
+            </div>
+          </div>
+        </section>
+
+
+      </article>
+      <!--#PORTFOLIO -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Certificates-Achievements</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Certificates-Achievements</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="certificates-achievements">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/project-1.jpg" alt="Freecodecamp" loading="lazy">
+                </figure>
+                <h3 class="project-title">Freecodecamp</h3>
+                <p class="project-category">Responsive Web design</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="certificates-achievements">
+              <a href="https://www.hackerrank.com/certificates/iframe/3e5410f34193">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/java.png" alt="Hacke-Rank" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hacke-Rank</h3>
+                <p class="project-category">Java-Basic</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="certificates-achievements">
+              <a href="https://www.hackerrank.com/certificates/iframe/4800eb4f94e2">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/css.png" alt="Hacke-Rank" loading="lazy">
+                </figure>
+                <h3 class="project-title">Hacke-Rank</h3>
+                <p class="project-category">Cascading Style Sheet</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/vardhan-seeds.png" alt="Infosys Spring-Board" loading="lazy">
+                </figure>
+                <h3 class="project-title">Vardhan-seeds</h3>
+                <p class="project-category"></p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/SRMS.png" alt="Infosys Spring-Board" loading="lazy">
+                </figure>
+                <h3 class="project-title">student result management system</h3>
+                <p class="project-category"></p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/FRMS.png" alt="Infosys Spring-Board" loading="lazy">
+                </figure>
+                <h3 class="project-title">Farmer Resource Management System</h3>
+                <p class="project-category"></p>
+              </a>
+            </li>
+             <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/images/portfolio.png" alt="Infosys Spring-Board" loading="lazy">
+                </figure>
+                <h3 class="project-title">personal portfolio</h3>
+                <p class="project-category"></p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--#BLOG-->
+
+      <!--- #CONTACT-->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317.35108264504066!2d81.12199253367756!3d16.77814757851605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a366a52f4b26a05%3A0x45b75b605695b137!2sQ4HC%2B6R3%2C%20Denduluru%2C%20Andhra%20Pradesh%20534450!5e1!3m2!1sen!2sin!4v1740448818508!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form id="contactForm" class="form" method="POST" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" id="name" class="form-input" placeholder="Full name" required
+                data-form-input>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required
+                data-form-input>
+            </div>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required
+              data-form-input></textarea>
+            <button class="form-btn" type="submit" id="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+            <p id="response-message" style="text-align: center;"></p>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+
+  <!--- custom js linK-->
+  <script src="script.js"></script>
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
