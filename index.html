@@ -30,79 +30,98 @@
 </head>
 
 <body>
-  
+
 
 
   <main>
-   <aside class="sidebar" data-sidebar>
-  <div class="sidebar-info">
-    <figure class="avatar-box">
-      <img src="images/Aky.png" alt="Abhishek Kumar Yadav" width="80">
-    </figure>
-    <div class="info-content">
-      <h1 class="name" title="Abhishek Kumar Yadav">Abhishek Kumar Yadav</h1>
-      <p class="title" style="font-weight:bold;">Full-Stack Web Developer</p>
-      <p class="tagline">
-        Specialized in Role-Based Systems & Responsive UI
-      </p>
-    </div>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="images/Aky.png" alt="Abhishek Kumar Yadav" width="80">
+        </figure>
+        <div class="info-content">
 
-    <button class="info_more-btn" data-sidebar-btn>
-      <span>Show Contacts</span>
-      <ion-icon name="chevron-down"></ion-icon>
-    </button>
-  </div>
+          <h1 class="name" title="Abhishek Kumar Yadav">Abhishek Kumar Yadav</h1>
 
-  <div class="sidebar-info_more">
-    <!-- Separator -->
-    <div class="separator"></div>
 
-    <!-- Contact Section -->
-    <div class="contact-content">
-      <p class="contact-item">
-        <i class="bi bi-envelope-fill"></i>
-        <a href="mailto:abhishekkumar.elu@gmail.com" class="contact-link">
-          abhishekkumar.elu@gmail.com
-        </a>
-      </p>
+          <!-- Availability status -->
+          <p class="availability">
+            <span class="live-dot"></span>
+            <span id="quote-text">Eager to collaborate on new ventures</span>
+          </p>
 
-      <p class="contact-item">
-        <i class="bi bi-telephone-fill"></i>
-        <a href="tel:+917416773244" class="contact-link">
-          +91 7416773244
-        </a>
-      </p>
 
-      <p class="contact-item">
-        <i class="bi bi-geo-alt-fill"></i>
-        <span>Eluru, Andhra Pradesh, India</span>
-      </p>
-    </div>
 
-    <!-- Separator -->
-    <div class="separator"></div>
 
-    <!-- Social Links -->
-    <ul class="social-list">
-      <li class="social-item">
-        <a href="https://github.com/Abhishek31k" class="social-link" target="_blank" title="GitHub">
-          <i class="bi bi-github"></i>
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://www.instagram.com/abhishek_031k" class="social-link" target="_blank" title="Instagram">
-          <i class="bi bi-instagram"></i>
-        </a>
-      </li>
-      <li class="social-item">
-        <a href="https://www.linkedin.com/in/abhishek-kumar-yadav-56bb73303" class="social-link" target="_blank"
-          title="LinkedIn">
-          <i class="bi bi-linkedin"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-</aside>
+          <!-- Example of not available (just switch the class) -->
+          <!--
+  <p class="availability not-available">
+    <span class="live-dot"></span> Not available for new projects <br>
+    <span style="margin-left: 20px;">Currently focused on ongoing work</span>
+  </p>
+  -->
+
+        </div>
+
+
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Contact Section -->
+        <div class="contact-content">
+          <p class="contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <a href="mailto:abhishekkumar.elu@gmail.com" class="contact-link">
+              abhishekkumar.elu@gmail.com
+            </a>
+          </p>
+
+
+          <p class="contact-item">
+            <i class="bi bi-whatsapp" style="color: #25D366;"></i>
+            <a href="https://wa.me/917416773244?text=Hi%20thanks%20for%20reaching%20out!" target="_blank"
+              class="contact-link">
+              Chat on WhatsApp
+            </a>
+          </p>
+          <p class="contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>Eluru, Andhra Pradesh, India</span>
+          </p>
+        </div>
+
+        <!-- Separator -->
+        <div class="separator"></div>
+
+        <!-- Social Links -->
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Abhishek31k" class="social-link" target="_blank" title="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/abhishek_031k" class="social-link" target="_blank" title="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/abhishek-kumar-yadav-56bb73303" class="social-link" target="_blank"
+              title="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
 
     <!--- #main-content-->
 
@@ -151,62 +170,62 @@
         </section>
 
         <!-- Recent Projects Section -->
-<section class="projects">
-  <h3 class="h3 section-title">Recent Projects</h3>
+        <section class="projects">
+          <h3 class="h3 section-title">Recent Projects</h3>
 
-  <div class="projects-grid">
-    
-    <!-- SRMS Project -->
-    <div class="project-card">
-      <a href="https://github.com/yourusername/srms" target="_blank" class="project-link">
-        <div class="project-image">
-          <img src="images/SRMS.png" alt="SRMS Project Thumbnail">
-        </div>
-        <div class="project-content">
-          <h4 class="project-title">SRMS (Student Result Management System)</h4>
-          <p class="project-description">
-            Role-based web app with student, staff, and admin dashboards. Features secure login,
-            result publishing, performance tracking with charts, and report exports.
-          </p>
-        </div>
-      </a>
-    </div>
+          <div class="projects-grid">
 
-    <!-- FRMS Project -->
-    <div class="project-card">
-      <a href="https://github.com/yourusername/frms" target="_blank" class="project-link">
-        <div class="project-image">
-          <img src="images/FRMS.png" alt="FRMS Project Thumbnail">
-        </div>
-        <div class="project-content">
-          <h4 class="project-title">FRMS (Farmer Resource Management System)</h4>
-          <p class="project-description">
-            Platform to manage farmers, productions, and resources with role-based access.
-            Includes an admin panel, user dashboard, and responsive UI.
-          </p>
-        </div>
-      </a>
-    </div>
+            <!-- SRMS Project -->
+            <div class="project-card">
+              <a href="https://github.com/yourusername/srms" target="_blank" class="project-link">
+                <div class="project-image">
+                  <img src="/images/SRMS.png" alt="SRMS Project Thumbnail">
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">SRMS (Student Result Management System)</h4>
+                  <p class="project-description">
+                    Role-based web app with student, staff, and admin dashboards. Features secure login,
+                    result publishing, performance tracking with charts, and report exports.
+                  </p>
+                </div>
+              </a>
+            </div>
 
-    <!-- Vardhan Seeds Project -->
-    <div class="project-card">
-      <a href="https://github.com/yourusername/vardhan-seeds" target="_blank" class="project-link">
-        <div class="project-image">
-          <img src="images/vardhan-seeds.png" alt="Vardhan Seeds Project Thumbnail">
-        </div>
-        <div class="project-content">
-          <h4 class="project-title">Vardhan Seeds: A Scalable E-commerce Solution</h4>
-          <p class="project-description">
-            E-commerce platform for seed products with secure authentication. 
-            Integrated Firebase for real-time database and storage. 
-            Includes role-based admin panel for managing content.
-          </p>
-        </div>
-      </a>
-    </div>
+            <!-- FRMS Project -->
+            <div class="project-card">
+              <a href="https://github.com/yourusername/frms" target="_blank" class="project-link">
+                <div class="project-image">
+                  <img src="/images/FRMS.png" alt="FRMS Project Thumbnail">
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">FRMS (Farmer Resource Management System)</h4>
+                  <p class="project-description">
+                    Platform to manage farmers, productions, and resources with role-based access.
+                    Includes an admin panel, user dashboard, and responsive UI.
+                  </p>
+                </div>
+              </a>
+            </div>
 
-  </div>
-</section>
+            <!-- Vardhan Seeds Project -->
+            <div class="project-card">
+              <a href="https://github.com/yourusername/vardhan-seeds" target="_blank" class="project-link">
+                <div class="project-image">
+                  <img src="/images/vardhan-seeds.png" alt="Vardhan Seeds Project Thumbnail">
+                </div>
+                <div class="project-content">
+                  <h4 class="project-title">Vardhan Seeds: A Scalable E-commerce Solution</h4>
+                  <p class="project-description">
+                    E-commerce platform for seed products with secure authentication.
+                    Integrated Firebase for real-time database and storage.
+                    Includes role-based admin panel for managing content.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </section>
 
 
 
@@ -235,7 +254,7 @@
                   <img src="images/crrengglogo.png" alt="Vardhan Seeds Logo">
                 </a>
               </div>
-             
+
             </div>
           </div>
         </section>
@@ -250,14 +269,12 @@
       <article class="resume" data-page="resume">
         <header>
           <h2 class="h2 article-title">Resume</h2>
-           
-    <!-- Resume Download Button -->
-    <a href="AbhishekKumar -Software Developement Engineer.pdf" 
-       class="btn btn-primary mt-3" 
-       target="_blank" 
-       download>
-      <i class="bi bi-file-earmark-pdf-fill"></i> Download Resume
-    </a>
+
+          <!-- Resume Download Button -->
+          <a href="AbhishekKumar -Software Developement Engineer.pdf" class="btn btn-primary mt-3" target="_blank"
+            download>
+            <i class="bi bi-file-earmark-pdf-fill"></i> Download Resume
+          </a>
         </header>
         <section class="timeline">
           <div class="title-wrapper">
@@ -404,7 +421,7 @@
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/project-1.jpg" alt="Freecodecamp" loading="lazy">
+                  <img src="/images/project-1.jpg" alt="Freecodecamp" loading="lazy">
                 </figure>
                 <h3 class="project-title">Freecodecamp</h3>
                 <p class="project-category">Responsive Web design</p>
@@ -417,7 +434,7 @@
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/java.png" alt="Hacke-Rank" loading="lazy">
+                  <img src="/images/java.png" alt="Hacke-Rank" loading="lazy">
                 </figure>
                 <h3 class="project-title">Hacke-Rank</h3>
                 <p class="project-category">Java-Basic</p>
@@ -429,20 +446,20 @@
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/css.png" alt="Hacke-Rank" loading="lazy">
+                  <img src="/images/css.png" alt="Hacke-Rank" loading="lazy">
                 </figure>
                 <h3 class="project-title">Hacke-Rank</h3>
                 <p class="project-category">Cascading Style Sheet</p>
               </a>
             </li>
-            
+
             <li class="project-item active" data-filter-item data-category="web design">
               <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/vardhan-seeds.png" alt="Infosys Spring-Board" loading="lazy">
+                  <img src="/images/vardhan-seeds.png" alt="Infosys Spring-Board" loading="lazy">
                 </figure>
                 <h3 class="project-title">Vardhan-seeds</h3>
                 <p class="project-category"></p>
@@ -454,7 +471,7 @@
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/SRMS.png" alt="Infosys Spring-Board" loading="lazy">
+                  <img src="/images/SRMS.png" alt="Infosys Spring-Board" loading="lazy">
                 </figure>
                 <h3 class="project-title">student result management system</h3>
                 <p class="project-category"></p>
@@ -466,19 +483,19 @@
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/FRMS.png" alt="Infosys Spring-Board" loading="lazy">
+                  <img src="/images/FRMS.png" alt="Infosys Spring-Board" loading="lazy">
                 </figure>
                 <h3 class="project-title">Farmer Resource Management System</h3>
                 <p class="project-category"></p>
               </a>
             </li>
-             <li class="project-item active" data-filter-item data-category="web design">
+            <li class="project-item active" data-filter-item data-category="web design">
               <a href="#">
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-                  <img src="images/portfolio.png" alt="Infosys Spring-Board" loading="lazy">
+                  <img src="/images/portfolio.png" alt="Infosys Spring-Board" loading="lazy">
                 </figure>
                 <h3 class="project-title">personal portfolio</h3>
                 <p class="project-category"></p>
@@ -535,6 +552,5 @@
 
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 
 </html>
