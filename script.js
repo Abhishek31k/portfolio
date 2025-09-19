@@ -171,6 +171,48 @@ navigationLinks.forEach((link) => {
     window.scrollTo(0, 0);
   });
 });
-document.getElementById("theme-toggle").addEventListener("click", () => {
-    document.body.classList.toggle("light-theme");
-});
+/* ==================================================
+   Rotating Availability Quotes (Typewriter Effect)
+================================================== */
+const quotes = [
+  "Eager to collaborate on new ventures",
+  "Currently open for freelance & contract work",
+  "Looking forward to exciting challenges",
+  "Actively accepting new projects",
+  "Available to join your next big idea",
+  "Ready for innovative opportunities"
+];
+
+const quoteText = document.getElementById("quote-text");
+let quoteIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeWriter() {
+  if (quoteText) {
+    const currentQuote = quotes[quoteIndex];
+
+    if (isDeleting) {
+      quoteText.textContent = currentQuote.substring(0, charIndex--);
+    } else {
+      quoteText.textContent = currentQuote.substring(0, charIndex++);
+    }
+
+    if (!isDeleting && charIndex === currentQuote.length) {
+      // Pause before deleting
+      isDeleting = true;
+      setTimeout(typeWriter, 1500);
+      return;
+    } else if (isDeleting && charIndex === 0) {
+      // Move to next quote
+      isDeleting = false;
+      quoteIndex = (quoteIndex + 1) % quotes.length;
+    }
+
+    const typingSpeed = isDeleting ? 60 : 100; // faster when deleting
+    setTimeout(typeWriter, typingSpeed);
+  }
+}
+
+// Start the effect
+typeWriter();
