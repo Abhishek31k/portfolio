@@ -175,11 +175,10 @@ navigationLinks.forEach((link) => {
    Rotating Availability Quotes (Typewriter Effect)
 ================================================== */
 const quotes = [
+   "Full-Stack-Developer",
   "Eager to collaborate on new ventures",
-  "Currently open for freelance & contract work",
-  "Looking forward to exciting challenges",
   "Actively accepting new projects",
-  "Available to join your next big idea",
+  "Available to join your next big idea ",
   "Ready for innovative opportunities"
 ];
 
@@ -216,3 +215,4 @@ function typeWriter() {
 
 // Start the effect
 typeWriter();
+
